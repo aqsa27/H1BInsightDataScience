@@ -4,9 +4,9 @@
 #
 #python ./src/h1b_counting.py ./input/h1b_input.csv ./output/top_10_occupations.txt ./output/top_10_states.txt
 
-cd src
-javac H1FileReader.java
-javac h1BStats.java
 
+javac src/H1FileReader.java
+javac src/h1BStats.java
+cd src
 java h1BStats ../input/h1b_input.csv ../output/top_10_occupations.txt ../output/top_10_states.txt
 
